@@ -1,0 +1,149 @@
+.banner {
+  background: url("https://1.bp.blogspot.com/-rH2JoyuTYOk/UNHdUSe0ebI/AAAAAAAAAQs/tOoNZQ-MKM0/s1600/1249557510_Amikom+belakang.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center; /* Agar teks berada di tengah secara horizontal */
+  justify-content: center; /* Agar konten berada di tengah secara horizontal */
+  font-size: large;
+}
+
+.banner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(130, 130, 139) 8%,
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+
+.banner .content {
+  padding: 1.4rem 7%;
+  max-width: 60rem;
+}
+
+.banner h4 {
+  color: #010101;
+  text-shadow: 5px 5px 5px rgba(1, 1, 3, 1, 5);
+  font-weight: 500;
+}
+.banner h3 {
+  color: #010101;
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.navbar .container a {
+  color: #fff;
+  font-weight: 500;
+}
+.navbar .container a span {
+  color: #f50992;
+  font-weight: 500;
+}
+
+.tentangkami h2 {
+  text-align: center;
+  color: #010101;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 1, 0.5);
+  font-weight: 700;
+}
+.tentangkami h2 span {
+  text-align: center;
+  color: rgb(241, 10, 10);
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 1, 0.5);
+  font-weight: 700;
+}
+
+.tentangkami h4 {
+  text-align: center;
+  color: #010101;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 1, 0.5);
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.tentangkami .row h3 {
+  color: #010101;
+  background-color: #fd0b98;
+}
+.tentangkami .row p {
+  color: #010101;
+  background-color: #e4f316;
+}
+.tentangkami .row p span {
+  color: #e4f316;
+  background-color: #e4f316;
+}
+
+.creativepk h2 {
+  text-align: center;
+  color: #010101;
+  font-weight: 700;
+}
+
+.akademik h2 {
+  text-align: center;
+  color: #f50992;
+  font-weight: 700;
+}
+
+.sisinfor h4 {
+  text-align: center;
+  background-color: aqua;
+  color: red;
+  font-weight: 600;
+}
+.informat h4 {
+  text-align: center;
+  background-color: aqua;
+  color: red;
+  font-weight: 600;
+}
+
+.kontaks {
+  background: url("https://i.ytimg.com/vi/msK5YIQHwZA/maxresdefault.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+.kontaks h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.kontaks p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #010101;
+}
+.navbar {
+  background-color: purple;
+}
+
+.footer {
+  background-color: #f50992;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
+
+.footer .socials {
+  padding: 1rem 0;
+}
+
+.footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
